@@ -1,0 +1,2935 @@
+
+.solutions{
+    padding-top: 100px;
+}
+
+.accordion-road .btn-link{
+    background: #CFE1F9;
+    border-radius: 3px;
+    width: auto!important;
+}
+
+.accordion-road .card-body{
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.accordion-road .btn-link:not(.collapsed){
+    background: transparent;
+    color: #FC4F44;
+    border-bottom: none;
+    font-size: 30px;
+}
+
+.accordion-road .btn-link:not(.collapsed) a{
+    color: #FC4F44;
+    border-bottom: none;
+    font-size: 30px;
+}
+
+#road-accordion-one .road-header{
+    text-align: left!important;
+}
+
+#road-accordion-two .road-header{
+    text-align: right!important;
+}
+
+.accordion-road .card{
+    margin-bottom: 150px;
+    z-index: 3;
+}
+
+.accordion-road .btn-link a{
+    border-bottom: 1.5px solid #182140;
+    color: #182140;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: OpenSans-Bold;
+}
+
+.roadmap{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 55%;
+}
+
+#road-map .header-roadmap{
+    margin-bottom: 20px;
+}
+
+#road-map .roadmap-solution{
+    font-family: OpenSans-Light;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.roadmap_slider{
+    padding: 0 40px;
+}
+
+.accordion-road{
+    width: 20%;
+    margin-top: 50px;
+}
+
+#compas img{
+    position: relative;
+    top: 135px;
+}
+
+
+
+.red-krug{
+    position: absolute;
+    top: 117px;
+    left: 120px;
+    z-index: 2;
+}
+
+
+
+
+#compas{
+    width: 60%;
+    background: url("../images/rollet-two.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    width: 700px;
+}
+
+.rollet{
+    position: absolute;
+    left: 25%;
+    margin-top: -190px;
+}
+
+.repo-logo{
+    position: absolute;
+    left: 680px;
+    z-index: 3;
+    margin-top: 100px;
+}
+
+
+
+#accordion-one .solution-head{
+    border-bottom: 1.5px solid #FC4F44;
+    color: #FC4F44;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    width: 55%;
+    margin-right: auto;
+}
+
+#accordion-two .solution-head{
+    border-bottom: 1.5px solid #A4D7FB;
+    color: #A4D7FB;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    width: 55%;
+    margin-left: auto;
+}
+
+#road-accordion-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#road-accordion-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card{
+    background: transparent;
+}
+
+.card .btn-link{
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    height: auto;
+}
+
+.accordion .solution-head{
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+}
+
+#accordion-one .card .btn-link{
+    text-align: left;
+    color: #FC4F44;
+    border-bottom: 1.5px solid #FC4F44;
+    padding-left: 0;
+    width: 75%;
+    font-family: OpenSans-Regular;
+}
+
+#accordion-one .card-body .top-part .text:after{
+    content: '';
+    width: 120%;
+    height: 1.5px;
+    background: #FC4F44;
+    display: inline-block;
+    position: absolute;
+    bottom: -13px;
+    z-index: 1;
+    left: 10px;
+}
+
+#accordion-two .card-body .top-part .text:before{
+    content: '';
+    width: 120%;
+    height: 1.5px;
+    background: #A4D7FB;
+    display: inline-block;
+    position: absolute;
+    bottom: -13px;
+    z-index: 1;
+    left: -70px;
+}
+
+#accordion-two .card .btn-link{
+    text-align: right;
+    color: #A4D7FB;
+    border-bottom: 1.5px solid #A4D7FB;
+    padding-right: 0;
+    width: 75%;
+    font-family: OpenSans-Regular;
+}
+
+#accordion-one .card-header{
+    text-align: left;
+}
+
+#accordion-two .card-header{
+    text-align: right;
+}
+
+.card-header{
+    padding: 0;
+}
+
+.card-body .bottom-part{
+    color: white;
+}
+
+.card-body .bottom-part .text{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: OpenSans-Light;
+}
+
+.card-body .top-part .text{
+    padding-left: 10px;
+    position: relative;
+    padding-right: 10px;
+}
+
+#accordion-one .card-body .top-part{
+    color: #FC4F44;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+}
+
+#accordion-one .card-body .bottom-part .text {
+    padding-left: 60px;
+}
+
+#accordion-two .card-body .bottom-part .text {
+    padding-right: 60px;
+}
+
+.glo-image{
+    width: 50px;
+}
+
+#accordion-two .card-body .top-part{
+    color: #A4D7FB;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#accordion-two .card-body .bottom-part .text{
+    text-align: right;
+}
+
+#accordion-one .fa-times{
+    border: 1px solid #FC4F44;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 50px;
+    width: 50px!important;
+    height: 50px;
+}
+
+#accordion-two .fa-check{
+    border: 1px solid #A4D7FB;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 50px;
+    width: 50px!important;
+    height: 50px;
+}
+
+#accordion-one .card-body{
+    padding-left: 0;
+}
+
+#accordion-two .card-body{
+    padding-right: 0;
+}
+
+
+#our-solutions{
+    background: url(../images/bg-vision.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "OpenSans-Regular";
+    background-attachment: fixed;
+}
+
+#road-map{
+    background: url(../images/bg-vision.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: OpenSans-Regular;
+    background-attachment: fixed;
+}
+
+    .menu-list .menu-item .link{
+        font-size: 22px;
+        color: white;
+        margin-left: 50px;
+    }
+
+    .btn-join, .btn-login {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .btn-join:hover, .btn-login:hover{
+        text-decoration: none;
+    }
+
+    .btn-login:hover{
+        color: #535455;
+    }
+
+    .btn-login {
+        margin-left: 15px;
+    }
+
+    .header-body  .menu-part{
+        width: 80%;
+    }
+
+    .header-body  .buttons-block{
+        width: 20%;
+    }
+
+    .text-h1 {
+        font-size: 65px;
+    }
+
+    .text-p{
+        font-size: 22px;
+    }
+
+    .title-row{
+        justify-content: space-between;
+    }
+
+    .solutions{
+        padding-bottom: 50px;
+    }
+
+@media (min-width: 1700px){
+
+    .menu-list .menu-item .link{
+        font-size: 22px;
+        color: white;
+        margin-left: 50px;
+    }
+
+    .btn-join, .btn-login {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .btn-join:hover, .btn-login:hover{
+        text-decoration: none;
+    }
+
+    .btn-login:hover{
+        color: #535455;
+    }
+
+    .btn-login {
+        margin-left: 15px;
+    }
+
+    .header-body  .menu-part{
+        width: 80%;
+    }
+
+    .header-body  .buttons-block{
+        width: 20%;
+    }
+
+    .text-h1 {
+        font-size: 60px;
+    }
+
+    .text-p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1600px){
+
+
+
+
+    .footer-phone-button {
+            bottom:90px!important;
+    }
+
+    .footer-phone img {
+
+        width: 70%!important;
+        height: 70% !important;
+    }
+    .phone-button {
+        font-size: 24px!important;
+        width: 295px!important;
+    }
+    .footer-container-social {
+        padding-bottom: 25px!important;
+    }
+    .bg-first_1001{
+        background-position-x: 1%;
+        background-size: 874px 979px;
+        background-position-y: -40px;
+        height: 400px;
+        margin-top: 110px;
+    }
+
+    .menu-list .menu-item .link{
+        font-size: 18px;
+        color: white;
+        margin-left: 50px;
+    }
+
+    .btn-login {
+        margin-left: 15px;
+    }
+
+    .Repobank-wrapper .image img {
+        width: 700px;
+    }
+
+    .roadmap .draggable {
+        /*padding-left: 150px !important;*/
+    }
+
+    .roadmap_slider {
+        padding: 0px 15px;
+    }
+
+    .Instant_Crypto_Overdrafts .bank_items_4 p,
+    .left_block_title_2{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 1400px){
+
+    .text-card p , .h2-vision p , .text-solution, .roadmap-solution , .description-p , .text-solution,  .whitepaper h5, .roadmap_view_p, .roadmap_view_p,  .jefren, .dont, .team-subheading{
+
+        font-size: 20px!important;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+
+    h2 {
+
+        font-size: 40px!important;
+
+    }
+
+    .Instant_Crypto_Overdrafts .block_bg_img .left_block {
+        padding: 5px 0 3px;
+    }
+
+    .block_bg_img_text_padding {
+        padding: 21px 0 0;
+    }
+
+        .features-p{
+            margin-top: 30px;
+        }
+    .features-2 p{
+        margin-left: 115px;
+
+    }
+
+    .block-1-few{
+        margin-bottom: -15px;
+    }
+    .blue-bg{
+        background: none;
+        border: 3px solid #2791c4;
+        padding: 15px;
+    }
+
+    .jeniur::before{
+        top:50px;
+    }
+
+    .jeniur-2::before{
+        top: 256px;
+    }
+
+    .jeniur-3::before{
+        top: 430px;
+    }
+    .jeniur-4::before{
+        top: 247px;
+    }
+
+    .jeniur-5::before{
+        top: 398px;
+    }
+    .features-p{
+        font-size: 18px;
+    }
+
+    .special-margin-fet{
+        margin-left: 0!important;
+    }
+
+
+
+    .description-fither{
+        font-size: 16px;
+    }
+    .menu-list .menu-item .link{
+        font-size: 17px;
+        color: white;
+        margin-left: 40px;
+    }
+
+
+
+    .btn-login {
+        margin-left: 15px;
+    }
+
+    .Repobank-wrapper .image img {
+        width: 600px;
+    }
+
+    .input_comparison .arrow_panel {
+        width: 220px;
+    }
+}
+
+@media (max-width: 1300px){
+
+    .menu-list .menu-item .link{
+        font-size: 16px;
+        color: white;
+        margin-left: 30px;
+        white-space: nowrap;
+    }
+
+    .wrapper-team-slider .slick-prev {
+        left: -60px!important;
+    }
+
+    .wrapper-team-slider .slick-next {
+        right: -60px!important;
+    }
+
+    .text-h1 {
+        margin-top: 170px;
+    }
+
+    .btn-join, .btn-login {
+        font-size: 16px;
+        padding: 8px 15px 10px 15px;
+    }
+
+    .btn-login {
+        margin-left: 15px;
+    }
+
+    .text-h1-p{
+        margin-left: 100px;
+    }
+
+    .Launch-p {
+        font-size: 30px;
+    }
+
+    .launch-video img{
+        width: 100%;
+    }
+
+    .pulse {
+        width: 90px;
+        height: 90px;
+    }
+
+    .Repobank-wrapper .image img {
+        width: 550px;
+    }
+
+    .title-row{
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .modal-description p {
+        font-size: 18px;
+        color: #182140;
+    }
+    .jeniur-4::before{
+        top: 245px;
+    }
+    .resize-img {
+        width: 80%;
+    }
+
+    .changer-language {
+        top: 80px;
+    }
+
+    .features-p::before {
+        width: 250px;
+    }
+
+    .Repobank-wrapper {
+        background: black;
+        height: auto;
+        padding-bottom: 125px;
+    }
+
+    .features-p {
+        margin-top: 30px;
+    }
+
+  }
+    .blue-bg svg{
+        width: 40px!important;
+    height: 40px!important;
+    }
+    .roadmap .draggable {
+        /*padding-left: 360px !important;*/
+    }
+
+    .Instant_Crypto_Overdrafts .img_item {
+        margin-bottom: 30px;
+    }
+
+    #compas {
+        height: 550px;
+        width: 550px;
+    }
+
+    #compas img {
+        top: 70px;
+    }
+
+    .wrapper-download-block .load {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+
+    .accordion-road .btn-link a {
+        font-size: 22px;
+    }
+
+    .Instant_Crypto_Overdrafts .modal-header img{
+        height: 50px !important;
+        width: auto;
+    }
+
+    .input_comparison .arrow_panel {
+        width: 150px;
+    }
+
+    .block_bg_img img {
+        top: -30px;
+        margin-bottom: -66px;
+    }
+}
+
+@media (max-width: 1050px){
+    .header-body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .text-h1-p{
+        margin-left: 80px;
+    }
+
+    .menu-list .menu-item .link {
+        margin-left: 16px;
+        font-size: 16px;
+    }
+
+    .header-body  .menu-part{
+        width: 78%;
+    }
+
+    .header-body  .buttons-block{
+        width: 22%;
+    }
+
+    .fa-bars{
+        color: white;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .jeniur-3::before{
+        top: 450px;
+    }
+
+    #video-modal .modal-content {
+        padding: 10px;
+    }
+
+    #video-modal .modal-body {
+        padding: 0;
+    }
+
+    #video-modal .modal-dialog {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .header-solution, .header-roadmap {
+        padding-top: 30px!important;
+    }
+
+    .whitepaper h2 {
+        padding-top: 60px;
+    }
+
+    .team {
+        padding: 60px 0 150px 0!important;
+    }
+
+    .Our-vision h2 {
+        padding-top: 60px;
+    }
+
+    .description-out-img {
+        margin-top: 50px;
+    }
+
+    .Instant_Crypto_Overdrafts {
+        padding: 60px 0 70px;
+    }
+
+    .margin-row-about-us {
+        padding-bottom: 0;
+    }
+
+    .header-solution, .header-roadmap {
+        padding-top: 60px;
+    }
+
+    .our_vision_slider {
+        padding: 60px 0;
+    }
+
+    .solutions {
+        padding-top: 60px;
+    }
+
+    .Business-model h2 {
+        padding-top: 60px;
+        margin-top: 0!important;
+    }
+
+    .Credit-card {
+        padding: 60px 0 50px;
+    }
+
+    .bg-cards-epic{
+        display: none;
+    }
+
+    .jeniur-5::before{
+        top:405px;
+    }
+
+    .jeniur-4::before {
+        top: 255px;
+    }
+    .jeniur-2::before {
+        top: 260px;
+    }
+    .jytis{
+     padding-top: 15px;
+    }
+
+    .Instant_Crypto_Overdrafts .block_bg_img,
+    .Instant_Crypto_Overdrafts .block_bg_right_img {
+        height: auto;
+    }
+
+    .solutions {
+        padding-top: 50px;
+    }
+
+    .wrapper-download-block{
+        flex-direction: column;
+    }
+
+    .text-solution, .roadmap-solution {
+        font-size: 26px;
+    }
+
+    .header-solution, .header-roadmap {
+        font-size: 50px;
+    }
+
+    .roadmap {
+        padding: 50px 0 80px;
+    }
+
+    #compas {
+        height: 400px;
+        width: 400px;
+    }
+
+    .credit-logo{
+        width: 100px;
+        top: 0px!important;
+        left: 80px;
+    }
+
+    .accordion-road .card {
+        margin-bottom: 100px;
+    }
+
+    .accordion-road .btn-link a {
+        font-size: 18px;
+    }
+
+    .strela {
+        margin-left: -100px;
+    }
+
+    #compas .strela {
+        width: 250px;
+        top: 70px;
+    }
+
+    .wrapper-download-block{
+        border-top: none;
+        padding-top: 30px;
+    }
+
+    .wrapper-download-all-button{
+        margin-top: 30px;
+    }
+
+    .wrapper-download-button{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        padding: 20px 40px;
+    }
+
+    .GET-BM{
+        FONT-SIZE: 32px!important;
+    }
+
+    .menu-list{
+        flex-direction: column;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .card .btn-link{
+        width: 100%!important;
+    }
+
+    .solutions-block {
+        max-width: 95%!important;
+    }
+
+    .solutions .image-block img {
+        width: 90%!important;
+    }
+
+    .solutions-block{
+        max-width: 90%;
+    }
+
+    .text-h1-p{
+        margin-left: 50px;
+    }
+
+    .text-h1 {
+        font-size: 45px;
+    }
+
+    .text-p{
+        font-size: 20px;
+    }
+
+    .mobile-btn{
+        display: block;
+    }
+
+    .menu-list .menu-item .link{
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .header-body .menu-part {
+        width: auto;
+    }
+
+    .header-body{
+        justify-content: center;
+    }
+
+    .menu-item{
+        padding: 10px;
+        padding-left: 0;
+    }
+
+    .hider{
+        display: none;
+    }
+
+    .header-body .menu-part {
+        width: 0;
+    }
+
+    .fa-bars {
+        color: white;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .mobile-btn{
+        margin-right: 20px;
+    }
+
+    .header-body .buttons-block {
+        width: auto;
+    }
+
+    .Repobank-wrapper .image img {
+        width: 450px;
+    }
+
+    .roadmap .draggable {
+        /*padding-left: 260px !important;*/
+    }
+
+    .Instant_Crypto_Overdrafts .modal-header img{
+        height: 40px !important;
+        width: auto;
+
+    }
+
+    .Instant_Crypto_Overdrafts .modal .modal-header button {
+        right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .items-icons{
+        flex-direction: column;
+    }
+
+    .align-items-left-features-new {
+        margin-bottom: 0;
+    }
+
+    .padding-rows {
+        padding-bottom: 75px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .language-list img {
+        width: 50px;
+    }
+
+    .changer-language{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+
+    .lang-first{
+        width: 50px;
+    }
+
+    .arrow-lang {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        transform: rotate(90deg);
+    }
+
+
+
+    .language-list{
+        flex-direction: column;
+    }
+
+    .pulse {
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    .wrapper-image img {
+        width: 50%;
+    }
+
+    .whitepaper {
+        padding-bottom: 100px;
+    }
+
+    .load {
+        font-size: 30px!important;
+    }
+
+    .description-out-img {
+        margin-top: 50px;
+    }
+
+    .h2-vision h2 {
+        font-size: 50px;
+    }
+
+    .Our-vision h2 {
+        padding-top: 60px;
+    }
+
+    .first-1001 img {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .first-1001 img {
+        margin-top: 50px;
+    }
+
+    .card .btn-link {
+        font-size: 16px!important;
+    }
+
+    .accordion .solution-head {
+        font-size: 30px;
+    }
+
+    .text-solution, .roadmap-solution {
+        line-height: 35px;
+    }
+
+    .header-solution, .header-roadmap {
+        margin-bottom: 5px;
+    }
+
+    #compas{
+        display: none;
+    }
+
+    .accordion-road .btn-link a {
+        font-size: 20px;
+    }
+
+    .accordion-road {
+        width: 40%;
+    }
+
+    #road-map .roadmap-solution {
+        margin-bottom: 0px;
+    }
+
+    .roadmap {
+        padding: 20px 0 80px!important;
+    }
+
+    .GET-BM{
+        font-size: 25px!important;
+    }
+
+    .description-out-img p{
+        text-align: left;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-p {
+        display: none;
+    }
+
+    .solutions .image-block{
+        display: none;
+    }
+
+    .solutions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .title-row {
+        flex-direction: column-reverse;
+    }
+
+    .Repobank-wrapper .image img {
+        margin-top: 100px;
+    }
+
+    .text-h1 {
+        margin-top: 0;
+    }
+
+    .text-h1-p{
+        margin-left: 20px;
+    }
+
+    .text-h1-p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-h1{
+        text-align: center;
+    }
+
+    .text-h1-p {
+        margin-left: 0!important;
+    }
+
+    .Repobank-wrapper .image img {
+        width: 100%;
+    }
+
+    .text-h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .title-row{
+        justify-content: space-between;
+    }
+
+    .text-h1 {
+        font-size: 36px;
+    }
+
+
+
+
+
+
+    .Launch-p {
+        font-size: 26px;
+        margin-right: 0;
+    }
+
+    .roadmap .draggable {
+        /*padding-left: 60px !important;*/
+    }
+}
+
+@media (max-width: 576px){
+
+    .card .btn-link {
+        font-size: 18px!important;
+    }
+
+    .features-2{
+        margin-top: 30px;
+    }
+
+    .features-2 p {
+        margin-left: 85px;
+    }
+
+    #accordion-one .card-body .top-part .text:after {
+        width: 100%;
+    }
+
+    #accordion-two .card-body .top-part .text:after {
+        width: 100%;
+    }
+
+    .accordion-road {
+        width: 45%;
+    }
+
+    .accordion-road .btn-link a {
+        font-size: 20px;
+    }
+
+    .features-p {
+        font-size: 14px;
+    }
+    .blue-bg svg {
+        width: 30px!important;
+        height: 30px!important;
+    }
+
+    .jeniur::before {
+        top: 40px;
+    }
+
+    .jeniur-4::before {
+        top: 250px;
+    }
+
+    .jeniur-2::before {
+        top: 288px;
+    }
+
+    .jeniur-3::before {
+        top: 446px;
+    }
+
+    .jeniur-5::before {
+        top: 412px;
+    }
+
+    .features-p::before {
+        width: 200px;
+        left: -60px;
+    }
+
+    .solutions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordion {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .solutions {
+        padding-top: 0;
+    }
+
+    .header-solution {
+        font-size: 40px;
+    }
+
+    .text-solution {
+        font-size: 20px;
+    }
+
+    /* our_vision_slider */
+    .Instant_Crypto_Overdrafts .modal .modal-header button {
+        right: 10px;
+        top: 15px;
+    }
+
+    .our_vision_slider .button_position {
+        display: block;
+    }
+
+    .our_vision_slider .button_position .row {
+        width: auto;
+    }
+
+
+    /* our_vision_slider end */
+}
+
+@media (max-width: 480px) {
+    .text-h1 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .launch-video img {
+        width: 100%;
+    }
+
+    .wrapper-block {
+        padding: 0 20px 30px 20px;
+    }
+
+    .button_position {
+        padding-top: 70px!important;
+    }
+
+    .slick-dots {
+        bottom: -50px!important;
+    }
+
+    .accordion-road .btn-link:not(.collapsed) a {
+        font-size: 26px;
+    }
+
+    .rollet-link {
+        font-size: 14px;
+    }
+
+    .header-solution, .header-roadmap {
+        font-size: 40px;
+    }
+
+    .text-solution, .roadmap-solution {
+        font-size: 22px;
+    }
+
+    .roadmap{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordion-road {
+        width: 90%;
+    }
+
+    .accordion-road .card {
+        margin-bottom: 50px;
+    }
+
+    .accordion-road .card{
+        width: 100%;
+    }
+
+    .roadmap_title {
+        font-size: 18px;
+    }
+
+    .roadmap .slick-center h2 {
+        font-size: 36px;
+    }
+
+    .roadmap_text{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .Launch-p {
+        font-size: 22px;
+        margin-right: 0;
+        position: relative;
+        left: 20px;
+    }
+
+    .launch-video img{
+        width: 50%;
+    }
+
+    .roadmap .draggable {
+        /*padding-left: 45px !important;*/
+    }
+
+    .roadmap_slider {
+        padding: 0 !important;
+    }
+
+    /* Instant_Crypto_Overdrafts */
+    .Instant_Crypto_Overdrafts h2 {
+        font-size: 40px !important;
+    }
+
+    .overdraft_panel .new_crypto_overdraft {
+        top: 69%;
+        padding: 15px 30px !important;
+    }
+
+    .overdraft_panel input {
+        font-size: 24px !important;
+    }
+    /* Instant_Crypto_Overdrafts end */
+}
+
+.wrapper-download-button:hover {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #165370, #2CA0C8);
+}
+
+@media (max-width: 1600px){
+    .Instant_Crypto_Overdrafts .bank_items{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1400px){
+    .Instant_Crypto_Overdrafts .bank_items{
+        font-size: 12px;
+    }
+
+    .footer-connect-text {
+        padding-left: 130px!important;
+        color: white;
+        transform: rotate(270deg);
+        width: 100%;
+        position: relative;
+        left: 0;
+        bottom: -460px;
+        top: auto;
+    }
+
+    .resize-img {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .GET-BM{
+        font-size: 40px;
+    }
+    .whitepaper-info-text{
+        padding-right: 60px;
+    }
+
+    .card .btn-link {
+        font-size: 18px;
+    }
+
+    .solutions .image-block img{
+        width: 100%;
+    }
+
+    .Instant_Crypto_Overdrafts .left_block,
+    .Instant_Crypto_Overdrafts .right_block{
+        width: 100%;
+    }
+
+    .Instant_Crypto_Overdrafts .card_text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Instant_Crypto_Overdrafts .block_bg > div{
+        border-radius: 30px;
+    }
+
+    .Instant_Crypto_Overdrafts .block_bg{
+        margin-bottom: 25px;
+    }
+
+
+    .Instant_Crypto_Overdrafts .bank_transfer{
+        padding-top: 40px;
+    }
+
+    .Instant_Crypto_Overdrafts .bank_items{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-block-whitepaper{
+        padding: 0;
+    }
+
+    .description-out-img p {
+        padding-left: 20px!important;
+    }
+
+    .first-1001 img {
+         padding-right: 0;
+    }
+
+    .first-1001 img {
+        margin-top: 50px;
+    }
+
+    .whitepaper {
+        padding-bottom: 40px;
+    }
+
+    .whitepaper h2 {
+        padding-top: 0;
+    }
+
+    .footer-phone-button {
+        width: 60%;
+    }
+
+    .phone-button {
+        width: 100% !important;
+    }
+
+    .accordion .solution-head {
+        font-size: 30px;
+    }
+
+    .Credit-card h2 {
+        font-size: 50px;
+    }
+
+    .text-card p {
+        font-size: 28px;
+        margin-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .accordion-road .btn-link:not(.collapsed) a {
+        font-size: 20px;
+    }
+
+    .btn {
+        white-space: normal;
+    }
+
+    .rollet-link {
+        font-size: 14px;
+    }
+
+    .wrapper-block{
+        min-height: 750px;
+    }
+
+    .wrapper-block-transform{
+        display: none;
+    }
+
+    .whitepaper-info-text{
+        padding: 0;
+        text-align: center!important;
+        margin-bottom: 40px;
+    }
+
+    .wrapper-download-button, .wrapper-download-text{
+        margin: 20px auto;
+        float: unset;
+    }
+}
+/* Section whitepaper end */
+
+/* roadmap */
+.roadmap{
+    padding: 80px 0 0;
+    font-family: OpenSans-Regular;
+    color: #182140;
+}
+
+.repo-logo{
+    position: absolute;
+}
+
+.roadmap .slick-dots {
+    position: relative;
+}
+
+#particles-js{
+    width: 100%;
+    height: 1105px;
+    background-color: transparent;
+    /*background-image: url('');*/
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.roadmap h2{
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    color: #182140;
+    border-radius: 20px;
+    font-size: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.roadmap .roadmap_slider h2{
+    color: #fff;
+    padding: 20px 0;
+}
+
+.roadmap_view_p{
+    padding-bottom: 60px;
+    line-height: 1.4;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.roadmap_slider .slick-slide {
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #fc4f44, #7e2822);
+}
+
+.roadmap .slick-slide{
+    z-index: 3;
+    position: relative;
+    margin-top: 120px;
+}
+
+
+.roadmap .slick-slide:nth-child(4){
+    z-index: 4;
+}
+
+.roadmap .slick-active{
+    margin-top: 115px;
+}
+
+.roadmap .slick-active:hover, .roadmap .slick-active:focus, .roadmap .slick-active:active{
+    outline: 0;
+    outline-offset: 0;
+}
+
+.roadmap .roadmap_scroll, .roadmap .roadmap_title{
+    display: none;
+}
+
+.roadmap .slick-center .roadmap_scroll, .roadmap .slick-center .roadmap_title{
+    display: block;
+}
+
+.roadmap .slick-center{
+    margin: 0;
+    z-index: 5;
+    background: #fff;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.4);
+    margin-bottom: 30px;
+    /*margin-left: -40px;*/
+}
+
+.roadmap .slick-slide h2{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    padding: 100px 0px 0;
+    height: 495px;
+    text-transform: initial;
+    font-family: OpenSans-Bold;
+}
+
+.roadmap .slick-slide{
+    position: relative;
+    /*margin-right: -40px;*/
+}
+
+.roadmap .slick-center h2{
+    background: linear-gradient(to bottom right, #fc4f44, #d34239);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 30px 0px;
+    box-shadow: none;
+    font-size: 50px;
+    height: auto;
+    font-family: OpenSans-Bold;
+    white-space: nowrap;
+}
+
+.roadmap_title{
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.roadmap_scroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.roadmap_scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(205, 22, 32,0.3);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.roadmap_scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+
+}
+
+.roadmap_scroll::-webkit-scrollbar-thumb {
+    background-color: #d8443a;
+    border-radius: 10px;
+}
+
+.roadmap_text{
+    padding: 0 10px 35px 30px;
+    display: flex;
+    height: 380px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.roadmap .slick-arrow{
+    display: none !important;
+}
+
+.roadmap .slick-dots li{
+    margin: 0 5px;
+}
+
+.roadmap .slick-dots li button:before {
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+.roadmap .slick-dots li button:before{
+    font-size: 12px;
+    color: transparent;
+    background: transparent !important;
+    border-radius: 15px;
+    border: 2px solid #fc4f44;
+}
+
+.roadmap .slick-dots li.slick-active button:before {
+    background: #fc4f44 !important;
+    color: #fc4f44;
+}
+
+.slick-slide .roadmap_number{
+    display: block;
+    position: absolute;
+    margin-top: -200px;
+    left: 15px;
+    font-size: 190px;
+    color: #E1E1E1;
+    font-family: OpenSans-Bold;
+    opacity: 0.5;
+}
+
+.slick-center .roadmap_number{
+    opacity: 0.2;
+    margin-top: -250px;
+    left: 25px;
+}
+
+.right .roadmap_number{
+    left: inherit;
+    right: 15px;
+}
+/* roadmap end */
+
+
+@media (max-width: 768px) {
+    .team-item{
+        margin-bottom: 80px;
+    }
+
+    .footer-phone-button{
+        text-align: left;
+        display: flex!important;
+    }
+
+    .footer-phone-button {
+        width: 60%!important;
+    }
+
+    .modal-content{
+        padding: 40px 50px;
+    }
+
+    .modal-content .team-item-image{
+        padding: 0 10%;
+    }
+
+    .team-item-image img{
+        width:auto;
+        margin: 0 auto;
+    }
+
+    .modal-content .team-item-social > a {
+        margin: 0 20px;
+    }
+
+    .modal-team-item-info{
+        margin-top: 20px;
+    }
+
+    .modal-description p{
+        text-align: center;
+    }
+}
+/* Section team end */
+
+
+/* footer */
+.footer{
+    /*height: 775px;*/
+    background-color: #0C0C0C;
+}
+
+.footer-flex{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.copyright, .design{
+    position: absolute;
+    bottom: 0;
+    color: #9C9C9C;
+    font-size: 20px;
+    padding: 0 14%;
+    margin-bottom: 40px;
+}
+
+
+.copyright{
+    width:100%;
+}
+
+.design-link{
+    color: #9C9C9C;
+}
+
+.design-link:hover {
+    color: #9C9C9C;
+    text-decoration: none;
+}
+
+.footer-phone{
+    width:100%;
+    position: relative;
+}
+
+.footer-about-company{
+    font-family: OpenSans-Light;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 0 15%;
+    line-height: 40px;
+}
+
+.footer-container-social{
+    /*position: relative;*/
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.footer-connect-text{
+    padding-left: 90px;
+    font-size: 30px;
+    color: white;
+    transform: rotate(270deg);
+    width: 100%;
+
+    position: relative;
+    left: 0;
+    bottom: -500px;
+    top: auto;
+}
+
+.footer-connect-text p{
+    white-space: nowrap;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.footer-wrapper{
+    position: relative;
+}
+
+.footer-logo{
+    position: absolute;
+    width:540px;
+    height:180px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -80px;
+    left: 0;
+    right: 0;
+    display: table;
+    background-color: #0C0C0C;
+    border-radius: 45px;
+}
+
+.footer-logo-block{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-logo-text{
+    color: #00C7AF;
+    font-size: 70px;
+    padding-left: 25px;
+}
+
+.footer-wrapper-social{
+    /*height:90px;*/
+    width:100%;
+    margin-bottom: 25px;
+}
+
+.connect-que{
+    padding-left: 150px;
+}
+.footer-wrapper-social img{
+    width: 80px;
+    height: 80px;
+}
+
+.footer-social-item{
+    display: flex;
+    width:100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.footer-social-item:hover{
+    text-decoration: none;
+}
+
+
+
+.social-item-facebook{
+    width: 90px; height: 90px;
+    background: url('../images/css_sprites.png') -3999px -782px;
+}
+
+.social-item-instagram{
+    width: 90px; height: 90px;
+    background: url('../images/css_sprites.png') -3630px -2540px;
+}
+
+.social-item-twitter{
+    width: 90px; height: 90px;
+    background: url('../images/css_sprites.png') -3999px -1062px;
+}
+
+.social-item-google{
+    width: 90px; height: 90px;
+    background: url('../images/css_sprites.png') -3870px -2420px;
+}
+
+
+.footer-social-item-image{
+    float: left;
+    margin-right: 30px;
+    /*width:50px;*/
+    /*height:50px;*/
+}
+
+.footer-social-item-link{
+    color: #FFFFFF;
+    font-size: 40px;
+    float: left;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 25px;
+    text-decoration: none;
+    /*width: 50px;*/
+    /*height: 50px;*/
+}
+
+.footer-phone{
+    width:100%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.footer-phone img{
+    width: 65%;
+    position: relative;
+    height:65%;
+    margin-right: 15px;
+}
+
+.footer-phone-button{
+    position: absolute;
+    bottom: 110px;
+    display: flex;
+    width: 91%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.phone-button{
+    font-size: 26px;
+    color: #FFFFFF;
+    padding: 0;
+    width: 315px;
+    height: 85px;
+    background-color: rgb(44, 160, 200);
+    border-radius: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-button:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.phone-button svg{
+    font-size: 38px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.copyright-hiden{
+    display: none;
+}
+/* footer end */
+
+@media(max-width: 1400px){
+    .modal-description p {
+        font-size: 20px;
+        color: #182140;
+    }
+
+    .footer-connect-text {
+        padding-left: 130px!important;
+        color: white;
+        transform: rotate(270deg);
+        width: 100%;
+        position: relative;
+        left: 0;
+        bottom: -435px;
+        top: auto;
+    }
+
+    .footer-connect-text p {
+        white-space: nowrap;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+
+}
+
+@media (max-width: 1201px){
+    .overdraft_panel .new_crypto_overdraft {
+        top: 77px;
+        left: 392px;
+    }
+}
+
+@media (max-width: 1199px){
+    .overdraft_panel .new_crypto_overdraft {
+        top: 77px;
+        left: 464px;
+    }
+}
+
+
+@media (max-width: 1200px){
+
+
+    .footer-connect-text p{
+        font-size: 28px;
+    }
+    .Instant_Crypto_Overdrafts .modal .modal-footer button{
+        width: 25%;
+    }
+
+    .footer-container-social{
+        padding-left: 130px!important;
+    }
+
+    .footer-flex {
+        padding-bottom: 0;
+    }
+    .footer-phone img{
+        width: 75%!important;
+        height: 75% !important;
+        padding-top: 200px;
+    }
+    .footer-logo-block{
+        margin-top:150px;
+    }
+
+
+    .footer-connect-text{
+        padding-left: 93px;
+        font-size: 21px;
+        color: white;
+        transform: rotate(270deg);
+        width: 100%;
+        position: relative;
+        left: 0;
+        bottom: -485px;
+        top: auto;
+    }
+
+
+
+    .footer-about-company{
+        font-size: 24px;
+    }
+
+    .footer-social-item-link{
+        height: auto;
+    }
+    .footer-wrapper-social img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-container-social{
+        padding-top: 0;
+    }
+    .footer-phone-button {
+        width: 90% !important;
+    }
+
+    .phone-button {
+        width: 70%!important;
+        height: 60px!important;
+    }
+    .modal-team-item-info {
+        align-items: flex-start;
+    }
+
+    .team-item {
+        height: 520px;
+    }
+
+    .team-item-name {
+        font-size: 24px;
+    }
+
+    .team-item-position {
+        font-size: 18px;
+    }
+
+    .overdraft_panel input {
+        padding: 12px 50px 12px 50px;
+    }
+
+    .Instant_Crypto_Overdrafts .modal_3 .modal-footer button {
+        width: 75%;
+    }
+
+    .our_vision_slider_panel .slick-slide{
+        height: 610px;
+    }
+
+    .our_vision_slider_panel .slick-center{
+        height: 710px;
+    }
+
+    .footer-social-item-link{
+        font-size: 30px;
+    }
+    .all-items-fors{
+        padding-bottom: 0;
+    }
+    .footer-phone-button{
+        margin: 0;
+        bottom: 60px;
+    }
+
+    .phone-button{
+        width:100%;
+        font-size: 19px!important;
+    }
+    .all-items-fors{
+        padding-top: 125px;
+    }
+    .connect-que {
+        padding-top: 75px;
+        padding-left: 0;
+    }
+    .footer-connect-text{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .Instant_Crypto_Overdrafts .modal_3 .modal-footer button {
+        width: 80%;
+    }
+
+    .phone-button{
+        font-size: 18px!important;
+        width: 60%!important;
+        height: 60px!important;
+    }
+
+    .footer-phone img{
+        width: 65%!important;
+        height: 65% !important;
+
+    }
+    .footer-phone-button {
+        width: 92% !important;
+    }
+        .footer-phone-button{
+        bottom: 40px!important;
+    }
+    .footer-phone img{
+    padding-top: 0;
+    }
+
+    .all-items-fors {
+        padding-top: 0;
+    }
+
+    .footer-connect-text{
+        padding-top: 0;
+        bottom: -355px;
+    }
+    .modal-team .modal-dialog {
+        max-width: 70% !important;
+    }
+
+    .bg-model-second img {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .Business-model .dont {
+        font-size: 24px;
+    }
+
+    .Business-model h2 {
+        font-size: 50px;
+        margin-top: 70px;
+    }
+
+    #road-map .roadmap-solution {
+        margin-bottom: 0;
+    }
+    .input_comparison .arrow_panel {
+        width: 100px;
+    }
+
+    .wrapper-download-text {
+        margin-bottom: 20px;
+    }
+
+    .block_bg_right_img .bank_items_1 p:last-child {
+        border: none;
+    }
+
+    .block_bg_right_img .bank_items_2 p {
+         border: none;
+    }
+
+    .Instant_Crypto_Overdrafts .bot_line,
+    .Instant_Crypto_Overdrafts .top_line{
+        display: none;
+    }
+
+    .Instant_Crypto_Overdrafts .icon_items img{
+        width: 100%;
+    }
+
+    .Instant_Crypto_Overdrafts .icon_items p{
+        font-size: 18px;
+    }
+
+    .overdraft_panel .new_crypto_overdraft{
+        top: 77px;
+        left: 545px;
+    }
+
+    .button_position h3{
+        font-size: 30px;
+    }
+
+    .our_vision_slider .button_position button{
+        padding: 18px 50px;
+    }
+
+    .button_position h3{
+        padding-bottom: 25px;
+    }
+
+    .menu-list{
+        flex-direction: column;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .text-h1-p{
+        margin-left: 50px;
+    }
+
+    .text-h1 {
+        font-size: 45px;
+    }
+
+    .text-p{
+        font-size: 20px;
+    }
+
+    .mobile-btn{
+        display: block;
+    }
+
+    .menu-list .menu-item .link{
+        margin: 0;
+        font-size: 24px;
+        white-space: nowrap;
+    }
+
+    .header-body .menu-part {
+        width: auto;
+    }
+
+    .header-body{
+        justify-content: center;
+    }
+
+    .menu-item{
+        padding: 10px;
+        padding-left: 0;
+    }
+
+    .hider{
+        display: none;
+    }
+
+    .header-body .menu-part {
+        width: 0;
+    }
+
+    .fa-bars {
+        color: white;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .mobile-btn{
+        margin-right: 20px;
+    }
+
+    .header-body .buttons-block {
+        width: auto;
+    }
+
+    .footer-about-company{
+        margin: 100px 0;
+        text-align: center;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    .copyright-hiden, .design{
+        display: block;
+        position: unset;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer-phone img {
+        width: 100%!important;
+        height: 100% !important;
+    }
+
+    .footer-phone-button {
+        width: 100% !important;
+    }
+    .phone-button {
+        font-size: 18px!important;
+        width: 215px;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0;
+        /* margin-right: 0; */
+        margin-right: 105px;
+        /* text-align: center; */
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    .modal_3 .btn-secondary{
+        margin-bottom: 20px;
+    }
+
+    .modal-team-item-info {
+        align-items: center;
+    }
+
+    .modal-team .modal-dialog {
+        max-width: 80% !important;
+    }
+
+    .team-item {
+        height: 620px;
+    }
+
+    .bg-model-second img {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+
+    .modal_3 .flex_center{
+        margin-left: 0;
+    }
+
+    .Instant_Crypto_Overdrafts .modal .modal-body,
+    .Instant_Crypto_Overdrafts .modal .modal-footer {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .modal_3 .modal-body > .row{
+        padding-left: 15px;
+    }
+
+    .Instant_Crypto_Overdrafts .block_bg .left_block_title_2{
+        border: none;
+    }
+
+    .Instant_Crypto_Overdrafts .div_img{
+        display: none;
+    }
+
+    .input_comparison .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Instant_Crypto_Overdrafts .input_comparison .span_i {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .input_comparison_select {
+        width: 75%;
+    }
+
+    .input_comparison_span {
+        width: 75%;
+    }
+
+    .Instant_Crypto_Overdrafts .img_item {
+        margin-bottom: 35px;
+    }
+
+   .Instant_Crypto_Overdrafts .input_comparison_span span {
+        font-size: 18px !important;
+    }
+
+    .Instant_Crypto_Overdrafts .modal .modal-footer button {
+        width: 74%;
+    }
+
+    .Instant_Crypto_Overdrafts .input_comparison .span_i {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .overdraft_panel .new_crypto_overdraft{
+        top: 77px;
+        left: 365px;
+    }
+
+    .roadmap_view_p{
+        font-size: 20px;
+    }
+
+    .Instant_Crypto_Overdrafts .icon_items img{
+        height: 150px;
+        width: auto;
+     }
+
+    .text-p {
+        display: none;
+    }
+
+    .text-h1 {
+        font-size: 40px;
+        line-height: 100px;
+    }
+
+
+    .Launch-p {
+        font-size: 26px;
+        margin-right: 0;
+    }
+
+    .footer-logo{
+        width:400px;
+
+    }
+
+    .footer-logo-text{
+        font-size: 50px;
+    }
+
+    .footer-about-company{
+        padding: 0 20%;
+    }
+
+    .footer-phone{
+        margin-top: 70px;
+        padding: 0 10%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .roadmap_view_p{
+        font-size: 18px;
+    }
+
+    .footer-phone-button{
+        right: 0;
+        left: 0;
+    }
+    .phone-button {
+        width: 50%!important;
+        margin-right: 100px;
+
+
+    }
+
+    .footer-phone img {
+        width: 75%!important;
+        height: 75% !important;
+    }
+    .modal-line {
+        margin: 20px auto;
+    }
+
+    .modal-team .modal-dialog {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .footer-connect-text{
+        display: none;
+    }
+
+    .footer-social-item{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roadmap h2{
+        font-size: 48px;
+    }
+
+    .our_vision_slider .button_position button{
+        padding: 13px 30px;
+        font-size: 16px;
+    }
+
+    .button_position h3{
+        font-size: 24px;
+    }
+
+    .our_vision_slider .text_signature{
+        font-size: 18px;
+        height: 235px;
+    }
+
+    .our_vision_slider .text_head{
+        font-size: 20px;
+    }
+
+    .our_vision_slider h2{
+        font-size: 48px;
+    }
+
+    .our_vision_slider .container > p{
+        font-size: 18px;
+    }
+
+    .overdraft_panel input{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .overdraft_panel .new_crypto_overdraft{
+        top: 77%;
+        left: auto;
+        font-size: 20px;
+        padding: 18px 35px;
+        right: 4%;
+    }
+
+    .overdraft_panel h2{
+        font-size: 30px;
+    }
+
+    .Instant_Crypto_Overdrafts h2{
+        font-size: 48px;
+    }
+
+    .Instant_Crypto_Overdrafts .description-p p{
+        font-size: 18px;
+    }
+
+   .Instant_Crypto_Overdrafts .modal.fade .modal-dialog{
+        max-width: 100% !important
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-phone-button{
+        bottom: 40px;
+    }
+
+    .phone-button{
+        height: 60px;
+        font-size: 22px;
+        padding: 15px ;
+    }
+
+    .phone-button svg{
+        font-size: 24px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .text-card p {
+        font-size: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 35px;
+    }
+
+    .Credit-card h2 {
+        font-size: 36px;
+    }
+
+    .align-items-left-features-new{
+        margin-bottom: 0px;
+    }
+
+
+     /* our_vision_slider */
+     .tooltip_select {
+        padding: 4px 8px;
+        margin-top: -10px;
+        top: -19px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    .overdrafts_slider .slick-dots {
+        background: url(../images/overdrafts_slider_bg.png) no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .footer-social-item img{
+        width: 70px;
+    }
+
+    .team-item {
+        height: 560px;
+    }
+
+    .roadmap_title {
+        font-size: 26px;
+    }
+
+    .credit_card, .bank_transfer{
+        padding: 0;
+    }
+
+    .Instant_Crypto_Overdrafts .modal_3 .modal-footer button {
+        width: 100%;
+    }
+
+    .Instant_Crypto_Overdrafts .modal_3 .modal-body, .Instant_Crypto_Overdrafts .modal .modal-footer {
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+
+    .Instant_Crypto_Overdrafts .input_comparison .span_i {
+        padding: 0px 20px 8px;
+        font-size: 36px;
+    }
+
+     .Instant_Crypto_Overdrafts .img_item .it_is_text {
+        font-size: 24px !important;
+    }
+
+    .Instant_Crypto_Overdrafts .img_item > p {
+        font-size: 18px !important;
+    }
+
+     .Instant_Crypto_Overdrafts .modal_stage_title {
+        font-size: 32px !important;
+    }
+
+     .Instant_Crypto_Overdrafts .modal .modal_stage_description{
+        font-size: 18px;
+    }
+
+    .h2-vision h2{
+        font-size: 35px;
+
+    }
+
+    .whitepaper h2 {
+        font-size: 50px;
+    }
+
+    .whitepaper h5 {
+        font-size: 26px;
+    }
+
+    .whitepaper h2 {
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .h2-vision p {
+        font-size: 20px;
+    }
+    .our_vision_slider h2 {
+        font-size: 40px;
+    }
+
+    .our_vision_slider_panel .slick-center .text_signature {
+        font-size: 16px;
+        height: 235px;
+    }
+
+    .our_vision_slider .our_vision_slider_panel {
+         padding-bottom: 0;
+    }
+
+    .our_vision_slider_panel .slick-center,
+    .our_vision_slider_panel .slick-slide{
+        height: auto;
+        padding: 50px 18px 45px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .our_vision_slider .slick-dotted.slick-slider {
+        margin-bottom: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* our_vision_slider end */
+
+    .Instant_Crypto_Overdrafts .div_overdrafts_total {
+        padding-left: 15px;
+    }
+
+    .Instant_Crypto_Overdrafts .img_item > p {
+        padding-bottom: 15px;
+    }
+
+    .Instant_Crypto_Overdrafts .span_i {
+        padding: 10px 0;
+    }
+
+    .Instant_Crypto_Overdrafts .modal h3 {
+        padding-top: 15px;
+        font-size: 36px;
+    }
+
+    .Instant_Crypto_Overdrafts .modal .modal-header p {
+        font-size: 18px;
+    }
+
+    .text-h1 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .text-h1-p{
+        margin-left: 20px;
+    }
+
+    .Launch-p {
+        font-size: 22px;
+        margin-right: 0;
+        position: relative;
+        left: 20px;
+    }
+
+    .launch-video img{
+        width: 100%;
+    }
+
+    .footer-logo{
+        width:300px;
+        top: -80px;
+    }
+
+    .footer-logo-text{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .overdraft_panel .new_crypto_overdraft {
+        top: 75%;
+    }
+
+    .pulse {
+        width: 50px;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+    .our_vision_slider {
+        padding: 70px 0;
+    }
+
+    .our_vision_slider .container > p {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .slick-dots {
+        left: 0!important;
+    }
+
+    .Business-model h2{
+        font-size: 35px;
+    }
+    .Business-model p{
+        font-size: 20px!important;
+    }
+    .btn-download{
+        font-size: 20px!important;
+    }
+
+    .wrapper-download-block .shirne-a{
+        font-size: 20px!important;
+    }
+
+    .footer-phone-button{
+
+    }
+
+    .phone-button span{
+        display: none;
+    }
+
+    .team-item-image img{
+        width:100%;
+    }
+
+    .roadmap .slick-center h2{
+        font-size: 40px;
+        padding: 15px 0;
+    }
+
+    .roadmap_title {
+        padding-top: 15px;
+    }
+
+    .roadmap_scroll {
+        margin-bottom: 35px;
+    }
+
+    .overdraft_panel select {
+        font-size: 24px;
+    }
+
+    .arrow_panel {
+        margin-top: -46px;
+    }
+}
+
+@media (max-width: 400px) {
+    .overdraft_panel .new_crypto_overdraft{
+        top: 75%;
+        margin-right: 2px;
+    }
+
+    .modal-content .team-item-social > a {
+        margin: 15px;
+    }
+
+    .modal-content .team-item-social {
+        height: auto;
+        margin: 0;
+    }
+
+    .team-item-social {
+        flex-wrap: wrap;
+    }
+
+    .team-item-name {
+        font-size: 20px;
+    }
+
+    .team-item {
+        height: 500px;
+    }
+
+    .input_comparison .arrow_panel {
+        width: 50px;
+        font-size: 18px;
+    }
+}
+
+
+
